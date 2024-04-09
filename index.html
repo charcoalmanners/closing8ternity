@@ -11,11 +11,11 @@
         function increaseDiv() {
 var myDiv = document.querySelector(".button1")
 var currWidth = myDiv.clientWidth;
-myDiv.style.width = currWidth + 50 + "px";
+myDiv.style.width = currWidth + 50 + "%";
 
 var myDiv = document.querySelector(".button1")
 var currHeight = myDiv.clientHeight;
-myDiv.style.height = currHeight + 50 + "px";
+myDiv.style.height = currHeight + 50 + "%";
 }
 
 function resizeText(multiplier) {
@@ -41,7 +41,7 @@ var array = ["why? :(", "please", "pleeeeaseeee", "aw cmon", "pretty please", "w
 
    function switchMessage() {
       if (index < array.length) {
-        document.getElementById("h1").innerText = array[index];
+        document.getElementById("no").innerText = array[index];
         index++;
       }
 
