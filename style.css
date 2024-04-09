@@ -2,23 +2,42 @@ body    {
     background-color: #ffe3ee;
 }
 
+@font-face {
+  font-family: IBMPlexBold;
+  src: url(IBMPlexSerif-Bold.ttf);
+}
+
+div {
+  font-family: IBMPlexBold;
+}
+
+@font-face {
+  font-family: IBMPlexLight;
+  src: url(IBMPlexSerif-Light.ttf);
+}
+
+div {
+  font-family: IBMPlexLight;
+}
+
 h1  {
     color: #060608;
     font-size: 48pt;
     text-align: center;
-    font-family: 'PT Serif Bold', PT Serif, serif;
+    font-family: 'IBMPlexBold', serif;
 }
 
 h2 {
     color: #060608;
     font-size: 24pt;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBMPlexLight', serif;
     transition: all 0.2s;
+    text-align: center;
 }
 
 .button1 {
     background-color: #FB929E;
-    padding: 10px 80px;
+    padding: 5px 20px;
     align-items: center;
     text-align: center;
     opacity: 0.6;
@@ -32,7 +51,7 @@ h2 {
 
 .button2 {
     background-color: #2470A0;
-    padding: 10px 80px;
+    padding: 5px 20px;
     text-align: center;
     opacity: 0.6;
     border: 0;
@@ -61,4 +80,8 @@ button.margin-right {
   margin-left: auto;
   margin-right: auto;
 width: 15%;
+}
+
+red {
+  color: maroon;
 }
